@@ -27,7 +27,7 @@ public class ClienteResource {
 
 	@GetMapping
 	public String status() {
-		return "Ok";
+		return "Cliente Resource - Ok";
 	}
 
 	@PostMapping
